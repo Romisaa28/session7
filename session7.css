@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+div{
+    height: 33.33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;}
+
+   .diva{
+    background: url('./WhatsApp\ Image\ 2024-12-02\ at\ 22.14.28_55eee2bd.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 300px;
+    font-weight: bold;
+   font-size: 30px;
+   }
+
+.div1{
+  
+  animation: updown 2s infinite;
+ 
+}
+@keyframes updown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.divd{
+    background: url('./WhatsApp\ Image\ 2024-12-02\ at\ 22.14.28_660b1031.jpg') center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.div2{
+    color: white;
+    animation: inout 2s infinite;
+}
+@keyframes inout{
+    0% ,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.divc{
+    background: url('./WhatsApp\ Image\ 2024-12-02\ at\ 22.14.28_a8d0f682.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.div3{
+   
+    animation: rotate 2s infinite
+}
+@keyframes rotate{
+    0%{ transform: rotate(0deg);
+    }
+    100%{ 
+        transform: rotate(360deg);
+    }
+}
+.divD{ 
+    background: url('./WhatsApp\ Image\ 2024-12-02\ at\ 22.14.28_a8e59954.jpg')center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    height: 300px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.div4{
+   
+    animation: scale 2s infinite ease-in-out;
+}
+@keyframes scale{
+    0% ,100%{ 
+    transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
